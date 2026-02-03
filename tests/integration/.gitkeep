@@ -1,0 +1,12 @@
+# Integration tests for @agent-memory/core
+#
+# These tests should:
+# - Test component interactions
+# - Use real file system (temp directory)
+# - Mock only external APIs
+# - Run in <10 seconds total
+#
+# Files to create:
+# - storage.test.ts: Real file I/O operations
+# - providers.test.ts: Real API calls (env-gated with LIVE_TEST=1)
+# - memory.test.ts: Memory class with real storage

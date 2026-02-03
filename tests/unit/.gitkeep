@@ -1,0 +1,14 @@
+# Unit tests for @agent-memory/core
+#
+# These tests should:
+# - Test one function/class at a time
+# - Mock all external dependencies (fs, LanceDB, APIs)
+# - Run fast (<1 second total)
+# - Cover happy path + error cases
+#
+# Files to create:
+# - config.test.ts: Config validation, defaults, path resolution
+# - storage.test.ts: Session/memory storage (mocked fs)
+# - search.test.ts: Search score normalization, filtering
+# - providers.test.ts: Provider construction, error handling
+# - tools.test.ts: Tool schema validation

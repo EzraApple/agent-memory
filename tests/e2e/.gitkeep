@@ -1,0 +1,14 @@
+# End-to-end tests for @agent-memory/core
+#
+# These tests should:
+# - Test full user workflows
+# - Use real file system
+# - External APIs env-gated (LIVE_TEST=1)
+# - Can be slow
+#
+# Files to create:
+# - workflows.test.ts: Complete user scenarios
+#   - Full session lifecycle: ingest → search → read
+#   - Full memory lifecycle: write → search → read → update → delete
+#   - Multi-session search ranking
+#   - Large session chunking
