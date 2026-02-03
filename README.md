@@ -11,7 +11,7 @@ Memory SDK for agentic AI systems. Provides session auto-storage, agent-written 
 - **Hybrid search**: BM25 + vector search over sessions and memories
 - **Chunk-based reading**: Read large sessions by chunk index for agent-friendly pagination
 
-Built for AI hackers at small companies building agents with TypeScript. Zero infrastructure required - uses embedded LanceDB for vector search and local file storage by default.
+Zero infrastructure required - uses embedded LanceDB for vector search and local file storage by default.
 
 ## Installation
 
